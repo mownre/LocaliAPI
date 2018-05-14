@@ -1,0 +1,17 @@
+{
+  "name": "localiapi",
+  "version": "1.0.0",
+  "description": "versao de testes para aplicacao",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maure Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "mysql": "^2.15.0",
+    "restify": "^7.1.1",
+    "restify-cors-middleware": "^1.1.0"
+  }
+}
